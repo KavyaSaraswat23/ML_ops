@@ -1,0 +1,349 @@
+/* ==========================================
+   GOOGLE FONT
+========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ==========================================
+   GLOBAL
+========================================== */
+
+html,
+body,
+[class*="css"] {
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:#F4F8FB;
+}
+
+/* ==========================================
+   MAIN APP
+========================================== */
+
+[data-testid="stAppViewContainer"]{
+    background:#F4F8FB;
+}
+
+/* ==========================================
+   SIDEBAR
+========================================== */
+
+[data-testid="stSidebar"]{
+
+    background:linear-gradient(
+        180deg,
+        #0B6EFD 0%,
+        #115DCC 100%
+    );
+
+    color:white;
+
+    border-right:0;
+
+}
+
+[data-testid="stSidebar"] *{
+
+    color:white !important;
+
+}
+
+[data-testid="stSidebarNav"]{
+
+    margin-top:25px;
+
+}
+
+/* ==========================================
+   PAGE TITLE
+========================================== */
+
+h1{
+
+    color:#124E96;
+
+    font-weight:700;
+
+}
+
+h2{
+
+    color:#124E96;
+
+}
+
+h3{
+
+    color:#0D5BA8;
+
+}
+
+/* ==========================================
+   METRIC CARDS
+========================================== */
+
+[data-testid="metric-container"]{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:18px;
+
+    box-shadow:
+        0px 10px 25px rgba(0,0,0,.08);
+
+    border-left:6px solid #0B6EFD;
+
+    transition:.35s;
+
+}
+
+[data-testid="metric-container"]:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:
+        0px 20px 40px rgba(0,0,0,.15);
+
+}
+
+/* ==========================================
+   BUTTONS
+========================================== */
+
+.stButton>button{
+
+    background:linear-gradient(
+        90deg,
+        #0B6EFD,
+        #0077FF
+    );
+
+    color:white;
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:14px;
+
+    font-weight:600;
+
+    width:100%;
+
+    transition:.3s;
+
+}
+
+.stButton>button:hover{
+
+    transform:scale(1.03);
+
+    box-shadow:
+        0px 12px 25px rgba(0,0,0,.18);
+
+}
+
+/* ==========================================
+   TEXT INPUT
+========================================== */
+
+.stTextInput>div>div>input{
+
+    border-radius:12px;
+
+}
+
+/* ==========================================
+   NUMBER INPUT
+========================================== */
+
+.stNumberInput{
+
+    border-radius:12px;
+
+}
+
+/* ==========================================
+   SELECT BOX
+========================================== */
+
+.stSelectbox>div>div{
+
+    border-radius:12px;
+
+}
+
+/* ==========================================
+   SLIDER
+========================================== */
+
+.stSlider{
+
+    padding-top:15px;
+
+}
+
+/* ==========================================
+   INFO BOXES
+========================================== */
+
+.stAlert{
+
+    border-radius:15px;
+
+}
+
+/* ==========================================
+   CODE BLOCK
+========================================== */
+
+.stCode{
+
+    border-radius:15px;
+
+}
+
+/* ==========================================
+   TABLES
+========================================== */
+
+table{
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+}
+
+/* ==========================================
+   EXPANDERS
+========================================== */
+
+.streamlit-expanderHeader{
+
+    font-weight:600;
+
+}
+
+/* ==========================================
+   IMAGES
+========================================== */
+
+img{
+
+    border-radius:18px;
+
+}
+
+/* ==========================================
+   HORIZONTAL LINE
+========================================== */
+
+hr{
+
+    border:none;
+
+    height:2px;
+
+    background:#E2E8F0;
+
+}
+
+/* ==========================================
+   SCROLLBAR
+========================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#0B6EFD;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#E9EEF5;
+
+}
+
+/* ==========================================
+   CUSTOM CARD
+========================================== */
+
+.custom-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    box-shadow:
+        0px 10px 25px rgba(0,0,0,.08);
+
+    margin-bottom:20px;
+
+}
+
+/* ==========================================
+   HERO SECTION
+========================================== */
+
+.hero{
+
+    background:linear-gradient(
+        90deg,
+        #0B6EFD,
+        #00AEEF
+    );
+
+    color:white;
+
+    padding:40px;
+
+    border-radius:25px;
+
+    margin-bottom:30px;
+
+}
+
+.hero h1{
+
+    color:white;
+
+}
+
+.hero p{
+
+    color:white;
+
+    font-size:18px;
+
+}
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+.footer{
+
+    text-align:center;
+
+    color:#6B7280;
+
+    margin-top:40px;
+
+    padding:20px;
+
+}
