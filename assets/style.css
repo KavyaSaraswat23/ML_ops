@@ -14,17 +14,6 @@ body,
     font-family: 'Poppins', sans-serif;
 }
 
-body{
-    background:#F4F8FB;
-}
-
-/* ==========================================
-   MAIN APP
-========================================== */
-
-[data-testid="stAppViewContainer"]{
-    background:#F4F8FB;
-}
 
 /* ==========================================
    SIDEBAR
@@ -56,30 +45,31 @@ body{
 
 }
 
+[data-testid="stMarkdownContainer"]{
+
+    color:inherit !important;
+
+}
+
+[data-testid="stMarkdownContainer"] *{
+
+    color:inherit !important;
+
+}
+
 /* ==========================================
    PAGE TITLE
 ========================================== */
 
-h1{
-
-    color:#124E96;
+h1,
+h2,
+h3{
 
     font-weight:700;
 
-}
-
-h2{
-
-    color:#124E96;
+    color: inherit !important;
 
 }
-
-h3{
-
-    color:#0D5BA8;
-
-}
-
 /* ==========================================
    METRIC CARDS
 ========================================== */
@@ -98,6 +88,13 @@ h3{
     border-left:6px solid #0B6EFD;
 
     transition:.35s;
+
+}
+
+[data-testid="metric-container"] label,
+[data-testid="metric-container"] div{
+
+    color:#111827 !important;
 
 }
 
@@ -219,6 +216,18 @@ table{
 
 }
 
+table{
+
+    color:inherit !important;
+
+}
+
+.custom-card{
+
+    color:#111827;
+
+}
+
 /* ==========================================
    EXPANDERS
 ========================================== */
@@ -236,6 +245,12 @@ table{
 img{
 
     border-radius:18px;
+
+}
+
+label{
+
+    color:inherit !important;
 
 }
 
