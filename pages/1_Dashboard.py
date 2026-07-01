@@ -378,3 +378,26 @@ st.dataframe(
     df.describe(),
     use_container_width=True
 )
+
+# ==========================================================
+# FOOTER
+# ==========================================================
+
+st.markdown(
+"""
+<div style="text-align:center; padding:20px">
+
+### 📊 Heart Disease Dashboard
+
+Developed using
+
+**Streamlit • Scikit-Learn • MLflow • Random Forest**
+
+---
+
+Made by **Kavya Saraswat**
+
+</div>
+""",
+unsafe_allow_html=True
+)
