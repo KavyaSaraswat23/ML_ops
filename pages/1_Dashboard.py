@@ -30,8 +30,11 @@ if css_file.exists():
 # ============================================================
 
 @st.cache_data
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+DATA_PATH = BASE_DIR / "raw_heart_disease_data.csv"
 def load_data():
-    df = pd.read_csv("/Users/kavyasaraswat/Desktop/ML/mmd_ops/raw_heart_disease_data.csv")
+    df = pd.read_csv(DATA_PATH)
     return df
 
 
