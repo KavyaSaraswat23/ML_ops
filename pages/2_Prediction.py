@@ -31,17 +31,13 @@ if css_file.exists():
 # LOAD MODEL
 # ==========================================================
 
-try:
 
-    model = load_model()
 
-    MODEL_READY = True
+model = load_model()
 
-except Exception as e:
+MODEL_READY = True
 
-    MODEL_READY = False
 
-    st.error(f"Unable to load model.\n\n{e}")
 
 # ==========================================================
 # CATEGORY MAPPINGS
