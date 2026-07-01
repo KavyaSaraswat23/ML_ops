@@ -2,7 +2,7 @@ streamlit
 pandas
 numpy
 plotly
-scikit-learn
+scikit-learn==1.6.1
 mlflow==3.14.0
 evidently
 joblib
