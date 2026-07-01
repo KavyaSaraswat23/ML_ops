@@ -3,7 +3,7 @@ pandas
 numpy
 plotly
 scikit-learn
-mlflow
+mlflow==3.14.0
 evidently
 joblib
 matplotlib
