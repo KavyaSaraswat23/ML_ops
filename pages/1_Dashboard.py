@@ -29,14 +29,12 @@ if css_file.exists():
 # LOAD DATA
 # ============================================================
 
-@st.cache_data
 BASE_DIR = Path(__file__).resolve().parent.parent
-
 DATA_PATH = BASE_DIR / "raw_heart_disease_data.csv"
-def load_data():
-    df = pd.read_csv(DATA_PATH)
-    return df
 
+@st.cache_data
+def load_data():
+    return pd.read_csv(DATA_PATH)
 
 df = load_data()
 
